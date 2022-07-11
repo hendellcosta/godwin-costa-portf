@@ -13,7 +13,7 @@ A portfolio for Godwin Costa.
 
 ## 🔧 Technologies
 
-- ReactJS
+- ReactJS </br>
 -VS Code
 
 ### To run this project follow the steps below:  
