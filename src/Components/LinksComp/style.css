@@ -1,0 +1,62 @@
+.home {
+  background: rgb(39, 39, 94);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.home-godwin-costa-pfp {
+  width: 45%;
+  border-radius: 100%;
+  border: 5px solid var(--main-color);
+}
+
+.home-identifiers-texts {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.home-name {
+  font-size: 40px;
+  color: var(--main-color);
+}
+
+.home-social-medias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-social-medias a {
+  color: #fff;
+  background: var(--main-color);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-social-medias svg {
+  display: flex;
+  align-items: left;
+}
+
+@media (min-width: 1200px) {
+  .home-godwin-costa-pfp {
+    width: 10%;
+  }
+}

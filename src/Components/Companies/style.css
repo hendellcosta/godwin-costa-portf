@@ -1,0 +1,38 @@
+.companies {
+    background: rgb(65, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+}
+
+.kwin-m-img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.gelid-img {
+    width: 50%;
+    height: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+@media (min-width: 1200px) {
+    .companies {
+        padding: 1.6rem;
+    }
+
+    .kwin-m-img {
+        width: 10%;
+        height: 10%;
+    }
+
+    .gelid-img {
+        width: 18%;
+        height: 18%;
+    }
+}
