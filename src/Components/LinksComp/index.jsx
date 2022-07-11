@@ -1,5 +1,5 @@
 import "./style.css";
-import pfp from "../../assets/images/godwin-costa-1.jpg";
+import pfp from "../../assets/images/godwin-costa-2.jpg";
 import { BsInstagram } from "react-icons/bs";
 import { FiFacebook } from "react-icons/fi";
 import { FiYoutube } from "react-icons/fi";
@@ -18,7 +18,8 @@ const LinksComp = () => {
       <span className='home-identifiers-texts'>
         <h2 className='home-name'>Godwin Costa</h2>
         <h3><span>Transformo Talentos em Negócio</span> <br/>
-        <span>CEO: <a href="https://www.instagram.com/kwin_agencia" target="_blank" rel="noreferrer"><a href="https://www.instagram.com/gelid_limpezas" target='_blank' rel="noreferrer"></a><u>Gelid</u></a> | <u>Kwin Media</u></span></h3>
+        <span>CEO: <a href="https://www.instagram.com/gelid_limpezas" target='_blank' rel="noreferrer"><u>Gelid</u></a> |
+         <a href="https://www.instagram.com/kwin_agencia" rel='noreferrer'><u> Kwin Media</u></a></span></h3>
       </span>
 
       <div className="home-social-medias">

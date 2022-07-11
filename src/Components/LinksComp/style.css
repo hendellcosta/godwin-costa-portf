@@ -1,5 +1,5 @@
 .home {
-  background: rgb(39, 39, 94);
+  background: var(--bg-color);
   padding: 3rem;
   display: flex;
   flex-direction: column;
