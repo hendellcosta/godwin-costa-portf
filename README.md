@@ -32,7 +32,7 @@ Installation:
 
 To Start Server:
 
-`npm run dev`  
+`npm run start`  
 
 To Visit App:
 
